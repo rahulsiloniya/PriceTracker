@@ -12,7 +12,7 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('psiloniya@gmail.com', 'nrtpqqmaoaupttly')
+    server.login('any_mail_here@gmail.com', 'password_here')
     subject = 'Your share pricing is rising!'
     body = ('Your stocks ', title[k], 'has become profitable.',
             'You can sell them to earn a prfit of', prc[k]-bprc[k], 'on each stock.')
